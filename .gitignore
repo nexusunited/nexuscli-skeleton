@@ -1,5 +1,9 @@
 composer.phar
 composer.lock
+/_Generated/*
+!/_Generated/Ide
+/_Generated/Ide/*
 /vendor/
 /.idea
+!.gitkeep
 

@@ -2,17 +2,18 @@
   "name": "nexusnetsoftgmbh/nexuscli-skeleton",
   "license": "MIT",
   "require-dev": {
+    "xervice/development": "^0.1.0",
     "codeception/codeception": "*",
     "symfony/var-dumper": "*"
   },
   "require": {
     "php": ">=7.1.0",
-    "nexusnetsoftgmbh/nexuscli": "^1.0.0"
+    "nexusnetsoftgmbh/nexuscli": "^1.3.0"
   },
   "autoload": {
     "psr-4": {
       "NexusTest\\": "tests/Nexus/",
-      "DataProvider\\": "src/Generated/"
+      "DataProvider\\": "_Generated/"
     },
     "psr-0": {
       "Nexus\\": "src/"
